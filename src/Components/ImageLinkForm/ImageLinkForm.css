@@ -1,6 +1,6 @@
 .imageForm {
     width: 700px;
-    background-color:black;
+    background-color: rgba(0,0,0,0.30);
     background-image:
             radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
             radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
