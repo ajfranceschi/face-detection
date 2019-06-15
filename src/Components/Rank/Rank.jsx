@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Rank = () => {
-  return(
-      <div className='white'>
-          <p className='f3 ma0 pa0'>
-              {'Antonio, your current rank is...'}
-          </p>
-          <p className='f1 ma0 pa0'>
-              {'#5'}
-          </p>
-      </div>
-  );
-};
+class Rank extends Component {
+    render() {
+        return(
+            <div className='white'>
+                <p className='f3 ma0 pa0'>
+                    {`${this.props.name}, your current entry count is...`}
+                </p>
+                <p className='f1 ma0 pa0'>
+                    {this.props.entries}
+                </p>
+            </div>
+        );
+    };
+}
 
 export default Rank;
