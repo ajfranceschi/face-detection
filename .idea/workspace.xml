@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72d3e1b-2ea2-4997-8c01-609ac143a82e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smart-brain-myself.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smart-brain-myself.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Rank/Rank.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Rank/Rank.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SignIn/SignIn.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="d72d3e1b-2ea2-4997-8c01-609ac143a82e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -75,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Rank/Rank.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="357">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -181,12 +173,12 @@
       <workItem from="1559242172976" duration="30000" />
       <workItem from="1559272702899" duration="3525000" />
       <workItem from="1560396614215" duration="3944000" />
-      <workItem from="1560537905423" duration="5576000" />
+      <workItem from="1560537905423" duration="5879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25713000" />
+    <option name="totallyTimeSpent" value="26016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
@@ -364,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Rank/Rank.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="357">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
