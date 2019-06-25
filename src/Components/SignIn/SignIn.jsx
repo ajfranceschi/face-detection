@@ -23,24 +23,24 @@ class SignIn extends Component {
 
     signInBtnPressed =() => {
 
-      fetch('http://localhost:3000/login', {
-          method: 'post',
-          headers: {'Content-Type':'application/json'},
-          body: JSON.stringify({
-              email: this.state.signInEmail,
-              password: this.state.signInPassword
-          })
-      }).then(response => response.json()).then(user => {
-          if (user.id) {
-              this.props.loadUser(user);
-              this.props.onRouteChange('home')
-          } else {
-              console.log('Could not get user');
-          }
-
-      })
-
-
+        fetch('http://localhost:3000/login', {
+            method: 'post',
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({
+                email: this.state.signInEmail,
+                password: this.state.signInPassword
+            })
+        })
+            .then(response => response.json())
+            .then(user => {
+                if (user.id) {
+                    this.props.loadUser(user);
+                    this.props.onRouteChange('home')
+                } else {
+                    console.log('Could not get user');
+                }
+            })
+            .catch(console.log);
     };
 
     render() {
