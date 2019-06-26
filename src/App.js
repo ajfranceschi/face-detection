@@ -28,6 +28,8 @@ const initialState = {
     }
 };
 
+const SMART_BRAIN_API_URL = 'https://dry-earth-63242.herokuapp.com';
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -72,7 +74,7 @@ class App extends Component {
             imageUrl: this.state.input,
         });
 
-        fetch('http://localhost:3000/imageurl', {
+        fetch(`${SMART_BRAIN_API_URL}/imageurl`, {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -83,7 +85,7 @@ class App extends Component {
             .then( response => {
                 console.log(response);
                 if (response) {
-                    fetch('http://localhost:3000/image', {
+                    fetch(`${SMART_BRAIN_API_URL}/image`, {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({

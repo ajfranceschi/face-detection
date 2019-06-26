@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+const SMART_BRAIN_API_URL = 'https://dry-earth-63242.herokuapp.com';
+
+
 class Register extends Component {
     constructor(props) {
         super(props);
@@ -31,7 +34,7 @@ class Register extends Component {
     };
 
     registerBtnPressed = () => {
-        fetch('http://localhost:3000/register', {
+        fetch(`${SMART_BRAIN_API_URL}/register`, {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
