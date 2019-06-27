@@ -57,7 +57,7 @@ class Register extends Component {
     render() {
         return(
             <div>
-                <article className="br4 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 center shadow-5">
+                <article className="br4 ba dark-gray b--black-10 mv4 w-100 mw6 center shadow-5">
                     <main className="pa4 black-80">
                         <div className="measure">
                             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
