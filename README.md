@@ -11,8 +11,15 @@ The API Code can be found [here](https://github.com/francofle/face-detection-api
 Technologies Used:
 --
 * React
+* PostgreSQL
+* NodeJS
+* ExpressJS
 * React-Particles-JS
 * React-tilt
+* Bcrypt
+* Clarifai
+* Body-Parser
+* Knex
 * Tachyons
 * HTML
 * CSS
